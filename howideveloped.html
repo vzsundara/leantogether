@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How I did transcribe Steps</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .image-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 950px;
+        }
+        .image-card img {
+            width: 100%;
+            height: auto;
+        }
+        .image-description {
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>    
+<div class="image-container">
+        <div class="image-card">
+            <img src="staticpage/UtahEdu/DemoRef/AWSTranscribe.jpg" alt="Demo Image 1">
+            <p class="image-description">
+                AWS Transcribe is a powerful service that converts speech to text automatically. It supports multiple languages and custom vocabulary.        </div>
+            </p>
+        </div>
+        <div class="image-card">
+            <img src="staticpage/UtahEdu/DemoRef/KB.jpg" alt="Demo Image 2">
+            <p class="image-description">
+                Amazon Bedrock Knowledge Base enables you to build generative AI applications that can retrieve and reason over your company's data. It securely connects your data sources with foundation models to provide relevant, contextual, and accurate responses.            </p>
+        </div>
+        <div class="image-card">
+            <img src="staticpage/UtahEdu/DemoRef/Playground.jpg" alt="Demo Image 3">
+            <p class="image-description">
+                Amazon Bedrock Playground is an interactive environment where developers can experiment with different foundation models (FMs) available through Amazon Bedrock. It provides a user-friendly interface to test prompts, compare model responses, and fine-tune parameters before implementing them in production applications.    
+            </p>
+        </div>
+        <div class="image-card">
+            <img src="staticpage/UtahEdu/DemoRef/TranscibedFile.png" alt="Sample Image">
+            <p class="image-description">
+                AWS Transcribe generates several output files:
+                - JSON file containing the complete transcription with timestamps, confidence scores, and speaker labels
+                - Plain text file with just the transcribed text
+                - WebVTT or SRT subtitle files that can be used with video players
+                - Custom vocabulary files that help improve accuracy for domain-specific terms
+                The transcription shown in this image is an example of the JSON output format from AWS Transcribe.            
+            </p>
+        </div>
+        <div class="image-card">
+            <img src="staticpage/UtahEdu/DemoRef/SRT-VideoTranscribe.jpg" alt="Sample Image">
+            <p class="image-description">                
+                Amazon Q can analyze SRT subtitle files to generate summaries, insights, and contextual information from video content. Simply provide the subtitle text file to Amazon Q, and it will help you extract meaningful information and generate relevant text-based content from the video transcripts.            
+            </p>     
+        </div>
+    </div>
+</body>
+</html>
