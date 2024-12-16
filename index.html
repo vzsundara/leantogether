@@ -16,7 +16,7 @@
             <li><a href="#about">About</a></li>
         </ul>
     </nav>
-
+    
     <main>
         <section class="hero" id="home">
             <h1>Welcome to Learn Together</h1>
@@ -27,12 +27,26 @@
             <h2>Featured Content</h2>
             <div class="video-container">
                 <video controls width="100%">
-                    <source src="staticpage/UtahEdu/recvideo/recording.mp4" type="video/mp4">                </video>
+                    <source src="staticpage/UtahEdu/recvideo/recording.mp4" type="video/mp4">
+                    <track 
+                        label="English" 
+                        kind="subtitles" 
+                        srclang="en" 
+                        src="staticpage/UtahEdu/recvideo/recording.vtt" 
+                        default/>                    
+                </video>
             </div>
+            <iframe class="video-insights" 
+                src="video-insights.html" width="100%" height="600" frameborder="0">
+            </iframe>
             <div class="video-description">
                 <h3>Course Overview</h3>
-                <p>This video provides an introduction to our learning materials.</p>
+                <p>This video provides an introduction to our learning materials.</p> 
+                <div class="video-description">
+                    <iframe src="./howideveloped.html" width="100%" height="500"></iframe>
+                </div>              
             </div>
+            </section>                    
         </section>
 
         <section class="course-grid" id="courses">
