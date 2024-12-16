@@ -32,3 +32,21 @@ https://mediaspace.utah.edu/media/t/0_pw2903ss
 
 Video embed in this webpage are from 
 www.kaltura.com
+
+# Vector Stores
+
+OpenSearch Serverless vector store for you
+
+# DataSource
+
+https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-data.html
+
+Unstructured data
+
+Amazon S3
+Confluence (preview)
+Microsoft SharePoint (preview)
+Salesforce (preview)
+Web Crawler (preview)
+Custom data source (allows direct ingestion of data into knowledge bases without needing to sync)
+
